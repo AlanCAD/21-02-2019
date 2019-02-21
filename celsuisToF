@@ -1,0 +1,15 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  var F;
+  F = celciusToF(13);
+  console.log(F);
+}
+
+function celciusToF(C) {
+  var F = 9 / 5 * C + 32;
+  return F;
+}
