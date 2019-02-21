@@ -1,0 +1,16 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  var a =10;
+  var b = 10;
+  var c = hipotenusa(a,b) ;
+console.log(c);
+}
+
+function hipotenusa (a,b){
+  var c = sqrt((a*a)+(b*b));
+  return c;
+}
