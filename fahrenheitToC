@@ -1,0 +1,15 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  var C;
+  C = fareToC(55.4);
+  console.log(C);
+}
+
+function fareToC(F) {
+  var C = (F-32)*5/9;
+  return C;
+}
